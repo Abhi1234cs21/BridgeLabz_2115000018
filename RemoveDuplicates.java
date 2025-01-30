@@ -1,22 +1,21 @@
-import java.util.Scanner;
-
 public class RemoveDuplicates {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter a string: ");
-        String input = scanner.nextLine();
-        scanner.close();
+    public static String removeDuplicateCharacters(String str) {
+        String result = "";
         
-        StringBuilder result = new StringBuilder();
-        boolean[] seen = new boolean[256];
-        
-        for (char c : input.toCharArray()) {
-            if (!seen[c]) {
-                result.append(c);
-                seen[c] = true;
+        for (int i = 0; i < str.length(); i++) {
+            char ch = str.charAt(i);
+           
+            if (result.indexOf(ch) == -1) {
+                result += ch;
             }
         }
-        
-        System.out.println("Modified string: " + result.toString());
+        return result;
+    }
+
+    public static void main(String[] args) {
+        String input = "programming";
+        String output = removeDuplicateCharacters(input);
+        System.out.println("Original String: " + input);
+        System.out.println("Modified String: " + output);
     }
 }
