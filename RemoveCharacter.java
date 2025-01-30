@@ -5,18 +5,17 @@ public class RemoveCharacter {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
-        System.out.print("Enter the character to remove: ");
-        char charToRemove = scanner.next().charAt(0);
+        System.out.print("Enter character to remove: ");
+        char removeChar = scanner.next().charAt(0);
         scanner.close();
         
-        StringBuilder result = new StringBuilder();
-        
-        for (char c : input.toCharArray()) {
-            if (c != charToRemove) {
-                result.append(c);
+        String result = "";
+        for (int i = 0; i < input.length(); i++) {
+            if (input.charAt(i) != removeChar) {
+                result += input.charAt(i);
             }
         }
         
-        System.out.println("Modified String: " + result.toString());
+        System.out.println("Modified String: " + result);
     }
 }
