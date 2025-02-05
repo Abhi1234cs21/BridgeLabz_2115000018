@@ -1,0 +1,55 @@
+Class Diagram:-
+
++----------------+         +-------------------+         +-------------------+
+|    Student     |<>-------|     Subject       |         |  GradeCalculator  |
++----------------+         +-------------------+         +-------------------+
+| - studentID    |         | - subjectID       |         | - student         |
+| - name         |         | - subjectName     |         |                   |
+| - dob          |         | - score           |         |                   |
+| - subjects     |         +-------------------+         +-------------------+
++----------------+         | + getSubjectScore()|         | + computeGrade()   |
+| + addSubject() |         +-------------------+         | + computeTotalScore()|
+| + removeSubject()|                                      +-------------------+
+| + getTotalScore()|
+| + getAverageGrade()|
++------------------+
+
+Object Diagram:-
+
++---------------------+        +---------------------+        +---------------------+
+|     Student: John   |<>------|    Subject: Maths   |        |    Subject: Science |
++---------------------+        +---------------------+        +---------------------+
+| studentID: 1        |        | subjectID: 101      |        | subjectID: 102      |
+| name: "John"        |        | subjectName: "Maths" |        | subjectName: "Science"|
+| dob: 01/01/2000     |        | score: 90           |        | score: 85           |
+| subjects: [Maths, Science]  | +---------------------+        +---------------------+
++---------------------+        | + getSubjectScore()  |        | + getSubjectScore()  |
+                               +---------------------+        +---------------------+
+
+Sequence Diagram:-
+
+  +-----------------+        +-------------------+        +---------------------+
+  |    Student     |        |   GradeCalculator |        |      Subject        |
+  +-----------------+        +-------------------+        +---------------------+
+          |                            |                           |
+          |   1. Request Grade         |                           |
+          |---------------------------->|                           |
+          |                            |                           |
+          |                            |                           |
+          |                            |     2. Get Total Score    |
+          |                            |-------------------------->|
+          |                            |                           |
+          |                            |     3. Get Subject Score |
+          |                            |<--------------------------|
+          |                            |                           |
+          |                            |     4. Compute Total     |
+          |                            |     Score and Grade      |
+          |                            |-------------------------->|
+          |                            |                           |
+          |                            |                           |
+          |                            |     5. Return Grade      |
+          |                            |<--------------------------|
+          |                            |                           |
+          |     6. Display Grade       |                           |
+          |<---------------------------|                           |
+  +-----------------+        +-------------------+        +---------------------+

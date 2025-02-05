@@ -1,0 +1,53 @@
+Class Diagram:-
+
++------------------+        +------------------+        +-------------------+
+|    Customer     |<>------|     Product      |        |  BillGenerator    |
++------------------+        +------------------+        +-------------------+
+| - customerID     |        | - productID      |        | - customer        |
+| - name           |        | - productName    |        |                   |
+| - contact        |        | - quantity       |        |                   |
+| - purchasedProducts |     | - pricePerUnit   |        |                   |
++------------------+        +------------------+        +-------------------+
+| + addProduct()   |        | + getTotalPrice()|        | + generateBill()   |
+| + removeProduct()|        +------------------+        | + generateDetailedBill()|
+| + getTotalAmount()|                                      +-------------------+
++------------------+
+
+Object Diagram:-
+
++---------------------+        +---------------------+        +---------------------+
+|   Customer: Alice   |<>------|  Product: Apples    |        |  Product: Milk      |
++---------------------+        +---------------------+        +---------------------+
+| customerID: 101     |        | productID: 201      |        | productID: 202      |
+| name: "Alice"       |        | productName: "Apples"|        | productName: "Milk" |
+| contact: "123-456"  |        | quantity: 2         |        | quantity: 1         |
+| purchasedProducts: [Apples, Milk] | pricePerUnit: 3    | pricePerUnit: 2      |
++---------------------+        +---------------------+        +---------------------+
+                              | + getTotalPrice()     |        | + getTotalPrice()    |
+                              +---------------------+        +---------------------+
+
+Sequence Diagram:-
+
+  +-------------------+        +-------------------+        +---------------------+
+  |     Customer      |        |   BillGenerator   |        |      Product        |
+  +-------------------+        +-------------------+        +---------------------+
+          |                            |                           |
+          |   1. Select Products       |                           |
+          |---------------------------->|                           |
+          |                            |                           |
+          |                            |     2. Get Product Prices  |
+          |                            |-------------------------->|
+          |                            |                           |
+          |                            |     3. Get Total Price    |
+          |                            |<--------------------------|
+          |                            |                           |
+          |                            |     4. Calculate Total    |
+          |                            |-------------------------->|
+          |                            |                           |
+          |                            |                           |
+          |                            |     5. Generate Bill      |
+          |                            |-------------------------->|
+          |                            |                           |
+          |     6. Display Bill        |                           |
+          |<---------------------------|                           |
+  +-------------------+        +-------------------+        +---------------------+
