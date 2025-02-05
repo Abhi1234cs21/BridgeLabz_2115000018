@@ -90,3 +90,13 @@
   - Ensuring Immutability with Final – Declare final variables for identifiers or constants that should remain unchanged. The final keyword prevents modification, ensuring data          integrity.
   - Safe Type Checking with Instanceof – Use instanceof for safe type-checking and to prevent runtime errors during typecasting. This ensures that an object is of a specific type        before performing operations on it.
   - *Practice Problems* – [Bank Account System, Library Management System, Employee Management System, Shopping Cart System, University Student Management, Vehicle Registration System, Hospital Management System ]
+
+  ---
+ *Day-11*  
+- *05-Feb-2025*  
+- *Topics:*  
+  - Object-Oriented Design Principles – focus on structuring software using objects, promoting modularity, reusability, and maintainability through concepts like encapsulation, inheritance, and polymorphism. 
+  - Class Diagram – Visual representation of system structure and relationships.  
+  - Object Diagrams – Showcases the real-world state of objects and their links.  
+  - Sequence Diagrams and Object Modeling – It's a UML diagram that illustrates the interaction between objects in a system over time, showing the sequence of messages exchanged.  
+  - *Practice Problems* – [School Results Application(Diagrams), Grocery Store Bill Generation Application(Diagrams), Library and Books (Aggregation), Bank and Account Holders (Association), Company and Departments (Composition), School and Students with Courses (Association and Aggregation), University with Faculties and Departments (Composition and Aggregation), Hospital, Doctors, and Patients (Association and Communication), E-commerce Platform with Orders, Customers, and Products, University Management System.] 
