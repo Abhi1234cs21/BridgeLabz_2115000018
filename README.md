@@ -99,4 +99,29 @@
   - Class Diagram – Visual representation of system structure and relationships.  
   - Object Diagrams – Showcases the real-world state of objects and their links.  
   - Sequence Diagrams and Object Modeling – It's a UML diagram that illustrates the interaction between objects in a system over time, showing the sequence of messages exchanged.  
-  - *Practice Problems* – [School Results Application(Diagrams), Grocery Store Bill Generation Application(Diagrams), Library and Books (Aggregation), Bank and Account Holders (Association), Company and Departments (Composition), School and Students with Courses (Association and Aggregation), University with Faculties and Departments (Composition and Aggregation), Hospital, Doctors, and Patients (Association and Communication), E-commerce Platform with Orders, Customers, and Products, University Management System.] 
+  - *Practice Problems* – [School Results Application(Diagrams), Grocery Store Bill Generation Application(Diagrams), Library and Books (Aggregation), Bank and Account Holders (Association), Company and Departments (Composition), School and Students with Courses (Association and Aggregation), University with Faculties and Departments (Composition and Aggregation), Hospital, Doctors, and Patients (Association and Communication), E-commerce Platform with Orders, Customers, and Products, University Management System.]
+
+---
+
+*Day-12*  
+- *07-Feb-2025*  
+- *Topics:*  
+  - Single-Level and Multilevel Inheritance – Enables a class to inherit properties and methods from a parent class, with multilevel inheritance extending this chain further.
+  - Method Overriding – Allows a subclass to redefine a method from its parent class, enabling runtime polymorphism.
+  - Constructor Inheritance – While constructors are not inherited, a subclass can invoke the parent class constructor using super().
+  - *Practice Problems* – [Animal Hierarchy, Employee Management System, Vehicle and Transport System, Library Management with Books and Authors, Smart Home Devices
+, Online Retail Order Management, Educational Course Hierarchy, Bank Account Types, School System with Different Roles, Restaurant Management System with Hybrid Inheritance, Vehicle Management System with Hybrid Inheritance.]
+
+---
+
+*Day-13*  
+- *10-Feb-2025*  
+- *Topics:*  
+  - Encapsulation – Use private access modifiers for fields, provide public getters/setters, validate data in setters, and follow naming conventions for methods (e.g., getX, setX).
+  - Polymorphism – Program to interfaces, ensure overridden methods follow the base class contract, avoid explicit casting, and keep inheritance hierarchies simple.
+  - Interfaces – Use interfaces to define contracts, prefer default methods when needed, and favor composition over inheritance for combining behaviors.
+  - Abstract Classes – Use abstract classes for shared state/functionality and combine them with interfaces to separate behavior from implementation.
+  - *Practice Problems* – [Employee Management System, E-Commerce Platform, Vehicle Rental System, Banking System, Library Management System, Online Food Delivery System, Hospital Patient Management, Ride-Hailing Application.]
+
+---
+ 
