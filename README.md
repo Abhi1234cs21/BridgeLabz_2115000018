@@ -124,4 +124,11 @@
   - *Practice Problems* – [Employee Management System, E-Commerce Platform, Vehicle Rental System, Banking System, Library Management System, Online Food Delivery System, Hospital Patient Management, Ride-Hailing Application.]
 
 ---
+*Day-14*  
+- *11-Feb-2025*  
+- *Topics:*  
+  - Single Linked List – A data structure where each node contains a data element and a reference (or pointer) to the next node in the sequence, with the last node pointing to null.
+  - Double Linked List – A data structure where each node contains a data element, a reference to the next node, and a reference to the previous node, allowing traversal in both         directions.
+  - Circular Linked List – A variation of a linked list where the last node's next pointer points back to the first node, creating a loop, allowing continuous traversal of the list.
+  - *Practice Problems* – [Singly Linked List: Student Record Management, Doubly Linked List: Movie Management System, Circular Linked List: Task Scheduler, Singly Linked List: Inventory Management System, Doubly Linked List: Library Management System, Circular Linked List: Round Robin Scheduling Algorithm, Singly Linked List: Social Media Friend Connections, Doubly Linked List: Undo/Redo Functionality for Text Editor, Circular Linked List: Online Ticket Reservation System.]
  
