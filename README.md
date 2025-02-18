@@ -164,4 +164,9 @@
   - *Practice Problems* – [Reverse a String Using StringBuilder, Remove Duplicates from a String Using StringBuilder, Concatenate Strings Efficiently Using StringBuffer, Compare StringBuffer with StringBuilder for String Concatenation, Read a File Line by Line Using FileReader, Count the Occurrence of a Word in a File Using FileReader, Convert Byte Stream to Character Stream Using InputStreamReader, Read User Input and Write to File Using InputStreamReader, Compare StringBuilder, StringBuffer, FileReader, and InputStreamReader, Search for the First Negative Number, Search for a Specific Word in a List of Sentences, Find the Rotation Point in a Rotated Sorted Array, Find the Peak Element in an Array, Search for a Target Value in a 2D Sorted Matrix, First and Last Occurrence of an Element in a Sorted Array, Challenge Problem (for both Linear and Binary Search).]
 
 ---
- 
+ *Day-18*  
+- *17-Feb-2025*  
+- *Topics:*
+  - Time Complexity – It describes the computational time an algorithm takes to run as a function of input size (e.g., O(1), O(N), O(log N)).
+  - Space Complexity – It represents the amount of memory an algorithm uses, including input storage and auxiliary space (e.g., O(1), O(N), O(N²)).
+  - *Practice Problems* – [ Search a Target in a Large Dataset, Sorting Large Data Efficiently, String Concatenation Performance,  Large File Reading Efficiency, Recursive vs     Iterative Fibonacci Computation, Comparing Different Data Structures for Searching.]
