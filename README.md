@@ -170,3 +170,12 @@
   - Time Complexity – It describes the computational time an algorithm takes to run as a function of input size (e.g., O(1), O(N), O(log N)).
   - Space Complexity – It represents the amount of memory an algorithm uses, including input storage and auxiliary space (e.g., O(1), O(N), O(N²)).
   - *Practice Problems* – [ Search a Target in a Large Dataset, Sorting Large Data Efficiently, String Concatenation Performance,  Large File Reading Efficiency, Recursive vs     Iterative Fibonacci Computation, Comparing Different Data Structures for Searching.]
+
+---
+*Day-19*  
+- *18-Feb-2025*  
+- *Topics:*
+  - Generics in Java enable compile-time type checking, ensuring that only compatible types are used and preventing runtime errors like ClassCastException.
+  - They allow the creation of reusable and flexible code by using type parameters that work with any object type.
+  - Additionally, generics eliminate the need for explicit type casting, making code cleaner and reducing the chances of runtime errors.
+  - *Practice Problems* – [Smart Warehouse Management System, Dynamic Online Marketplace,  Multi-Level University Course Management System, Personalized Meal Plan Generator, AI-Driven Resume Screening System.]
