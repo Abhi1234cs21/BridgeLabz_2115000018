@@ -179,3 +179,14 @@
   - They allow the creation of reusable and flexible code by using type parameters that work with any object type.
   - Additionally, generics eliminate the need for explicit type casting, making code cleaner and reducing the chances of runtime errors.
   - *Practice Problems* – [Smart Warehouse Management System, Dynamic Online Marketplace,  Multi-Level University Course Management System, Personalized Meal Plan Generator, AI-Driven Resume Screening System.]
+
+  ---
+  *Day-20*  
+- *20-Feb-2025*  
+- *Topics:*
+  - Set – A collection of unique elements that does not allow duplicates and provides efficient operations for membership tests.
+  - Queue – A linear data structure that follows the FIFO (First In, First Out) principle, where elements are added at the rear and removed from the front.
+  - Map – A data structure that stores key-value pairs, allowing fast lookups, insertions, and deletions based on unique keys.
+  - List – An ordered collection of elements that allows duplicates and provides dynamic resizing, supporting operations like insertion, deletion, and indexing.
+  - *Practice Problems* – [Reverse a List, Find Frequency of Elements, Rotate Elements in a List, Remove Duplicates While Preserving Order
+, Find the Nth Element from the End, Check if Two Sets Are Equal, Union and Intersection of Two Sets, Symmetric Difference, Find Subsets, Reverse a Queue, Generate Binary Numbers Using a Queue, Hospital Triage System, Implement a Stack Using Queues, Circular Buffer Simulation, Word Frequency Counter, Invert a Map, Find the Key with the Highest Value, Merge Two Maps, Group Objects by Property, Insurance Policy Management System, Design a Voting System, Implement a Shopping Cart, Implement a Banking System.]  
