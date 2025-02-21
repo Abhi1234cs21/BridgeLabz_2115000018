@@ -189,4 +189,16 @@
   - Map – A data structure that stores key-value pairs, allowing fast lookups, insertions, and deletions based on unique keys.
   - List – An ordered collection of elements that allows duplicates and provides dynamic resizing, supporting operations like insertion, deletion, and indexing.
   - *Practice Problems* – [Reverse a List, Find Frequency of Elements, Rotate Elements in a List, Remove Duplicates While Preserving Order
-, Find the Nth Element from the End, Check if Two Sets Are Equal, Union and Intersection of Two Sets, Symmetric Difference, Find Subsets, Reverse a Queue, Generate Binary Numbers Using a Queue, Hospital Triage System, Implement a Stack Using Queues, Circular Buffer Simulation, Word Frequency Counter, Invert a Map, Find the Key with the Highest Value, Merge Two Maps, Group Objects by Property, Insurance Policy Management System, Design a Voting System, Implement a Shopping Cart, Implement a Banking System.]  
+, Find the Nth Element from the End, Check if Two Sets Are Equal, Union and Intersection of Two Sets, Symmetric Difference, Find Subsets, Reverse a Queue, Generate Binary Numbers Using a Queue, Hospital Triage System, Implement a Stack Using Queues, Circular Buffer Simulation, Word Frequency Counter, Invert a Map, Find the Key with the Highest Value, Merge Two Maps, Group Objects by Property, Insurance Policy Management System, Design a Voting System, Implement a Shopping Cart, Implement a Banking System.]
+
+ ---
+ *Day-21*  
+- *21-Feb-2025*  
+- *Topics:*
+  - Java I/O Streams – Java I/O Streams are used to perform input and output operations in Java, allowing data to be read from and written to different sources like files, memory,      or network connections.
+  - File Streams – Used to read from or write to files on the disk using classes like FileInputStream and FileOutputStream.
+  - Object Streams – Enable serialization and deserialization of objects using ObjectInputStream and ObjectOutputStream.
+  - ByteArray Streams – Allow reading and writing data in memory using byte arrays (ByteArrayInputStream, ByteArrayOutputStream).
+  - Buffered Streams – Enhance performance by buffering data before reading/writing, using BufferedInputStream and BufferedOutputStream.
+  - Reader and Writer – Handle character-based input and output operations, with classes like FileReader, FileWriter, BufferedReader, and BufferedWriter.
+  - *Practice Problems* – [File Handling - Read and Write a Text File, Buffered Streams - Efficient File Copy, Read User Input from Console, Serialization - Save and Retrieve an Object, ByteArray Stream - Convert Image to ByteArray, Filter Streams - Convert Uppercase to Lowercase, Data Streams - Store and Retrieve Primitive Data, Piped Streams - Inter-Thread Communication, Read a Large File Line by Line, Count Words in a File.]
