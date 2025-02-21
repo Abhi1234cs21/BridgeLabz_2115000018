@@ -202,3 +202,17 @@
   - Buffered Streams – Enhance performance by buffering data before reading/writing, using BufferedInputStream and BufferedOutputStream.
   - Reader and Writer – Handle character-based input and output operations, with classes like FileReader, FileWriter, BufferedReader, and BufferedWriter.
   - *Practice Problems* – [File Handling - Read and Write a Text File, Buffered Streams - Efficient File Copy, Read User Input from Console, Serialization - Save and Retrieve an Object, ByteArray Stream - Convert Image to ByteArray, Filter Streams - Convert Uppercase to Lowercase, Data Streams - Store and Retrieve Primitive Data, Piped Streams - Inter-Thread Communication, Read a Large File Line by Line, Count Words in a File.]
+
+---
+ *Day-22*  
+- *22-Feb-2025*  
+- *Topics:*
+  - *Exceptions in Java* – Exceptions in Java are unexpected events that disrupt the normal flow of a program. They can be handled using various mechanisms to prevent crashes and ensure smooth execution.  
+  - *Types of Exceptions:*  
+    - Checked Exceptions – Exceptions that must be handled at compile-time using try-catch or throws, such as IOException and SQLException.  
+    - Unchecked Exceptions – Occur at runtime and do not require explicit handling, like NullPointerException and ArithmeticException.  
+    - Custom Exceptions – User-defined exceptions that extend Exception or RuntimeException to handle specific application errors.  
+  - Handling Exceptions – Exceptions in Java are handled using try-catch, try-catch-finally, try-with-resources, throws, and throw to prevent program crashes and ensure smooth     execution.  
+  - *Practice Problems* – [Checked Exception (Compile-time Exception), Unchecked Exception (Runtime Exception), Custom Exception (User-defined Exception), Multiple Catch Blocks, try-with-resources (Auto-closing Resources), throw vs. throws (Exception Propagation), finally Block Execution, Exception Propagation in Methods, Nested try-catch Block, Bank Transaction System (Checked + Custom Exception).]
+ 
+---
