@@ -222,3 +222,12 @@
   - Regex (Regular Expressions) – A sequence of characters defining a search pattern, used for text matching and manipulation in various programming languages.
   - JUnit –A widely used testing framework in Java for unit testing, enabling test automation and ensuring code reliability.  
   - *Practice Problems* – [BankAccount, Calculator, DatabaseConnection, DateFormatter, DivideByZeroManager, FileProcessor, ListManager, NumberUtils, PasswordValidator, PerformanceUtils, StringUtils, TemperatureConverter, UserRegistration, CapitalizedWordExtractor, CensorBadWords, DateExtractor, EmailExtractor, ExtractCurrency, ExtractLanguages, FindRepeatingWords, HexColorValidator, LicensePlateValidator, LinkExtractor, SpaceNormalizer, UsernameValidator, ValidateCreditCard, ValidateIPAddress, ValidateSSN.]
+ 
+---
+*Day-24*  
+- *24-Feb-2025*  
+- *Topics:*
+  - Annotation – In Java, annotations are metadata that provide additional information about code but do not affect its execution. They are used for configuration, documentation, and runtime processing, often with frameworks like Spring and JUnit.
+  - Reflection – Reflection in Java is a feature that allows inspection and manipulation of classes, methods, and fields at runtime. It enables dynamic instantiation, method       
+invocation, and accessing private members, commonly used in frameworks, debugging, and testing.
+  - *Practice Problems* – [Use @Override Correctly, Use @Deprecated to Mark an Old Method, Suppress Unchecked Warnings, Create a Custom Annotation and Use It, Create and Use a Repeatable Annotation, Create an Annotation to Mark Important Methods, Create a @Todo Annotation for Pending Tasks, Create an Annotation for Logging Method Execution Time, Create a @MaxLength Annotation for Field Validation, Implement a Role-Based Access Control with @RoleAllowed, Implement a Custom Serialization Annotation @JsonField, Implement a Custom Caching System with @CacheResult, Get Class Information, Access Private Field, Invoke Private Method, Dynamically Create Objects, Dynamic Method Invocation, Retrieve Annotations at Runtime, Access and Modify Static Fields, Create a Custom Object Mapper, Generate a JSON Representation, Custom Logging Proxy Using Reflection, Dependency Injection using Reflection, Method Execution Timing.]
