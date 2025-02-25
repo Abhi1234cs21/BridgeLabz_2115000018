@@ -181,7 +181,7 @@
   - *Practice Problems* – [Smart Warehouse Management System, Dynamic Online Marketplace,  Multi-Level University Course Management System, Personalized Meal Plan Generator, AI-Driven Resume Screening System.]
 
   ---
-  *Day-20*  
+*Day-20*  
 - *20-Feb-2025*  
 - *Topics:*
   - Set – A collection of unique elements that does not allow duplicates and provides efficient operations for membership tests.
